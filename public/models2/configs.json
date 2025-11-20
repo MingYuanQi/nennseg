@@ -1,0 +1,34 @@
+{
+    "Preprocess": [
+        {
+            "type": "Decode",
+            "mode": "RGB"
+        },
+        {
+            "type": "Resize",
+            "interp": 1,
+            "keep_ratio": false,
+            "limit_max": false,
+            "target_size": [
+                144,
+                256
+            ]
+        },
+        {
+            "type": "Normalize",
+            "mean": [
+                127.5,
+                127.5,
+                127.5
+            ],
+            "std": [
+                127.5,
+                127.5,
+                127.5
+            ]
+        },
+        {
+            "type": "Permute"
+        }
+    ]
+}
