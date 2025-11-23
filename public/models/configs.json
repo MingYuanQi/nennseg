@@ -10,8 +10,8 @@
             "keep_ratio": false,
             "limit_max": false,
             "target_size": [
-               288,
-               512
+               256,
+               448
             ]
         },
         {
